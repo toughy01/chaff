@@ -1,0 +1,41 @@
+---
+title: "chaff"
+author: "John Tough"
+date: "11 November 2020"
+output: html_document
+---
+
+<!-- SETTING DEFAULT CODE CHUNK OPTIONS -->
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      warning = FALSE, 
+                      message = FALSE,
+                      fig.retina = 3)
+
+
+
+```{r packages}
+library(tidyverse)
+library(bookdown)
+
+
+                  #Introduction
+#Investigating whether or not there are significant differences in 
+#chaffinch mass that can be explained by sex
+
+                  #method
+
+#
+
+
+
+
+```{reading data and tidying data}
+chaff <- read.table("chaff.txt", header = T)
+chaff2 <- gather(chaff, key = sex, value = mass) 
+
+
+
+
